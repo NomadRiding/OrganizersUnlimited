@@ -2,7 +2,7 @@ import React from "react"
 import "./HomePage.css"
 import Layout from "../Components/Layout"
 
-function HomePage() {
+export default function HomePage() {
   return (
     <>
       <Layout>
