@@ -3,7 +3,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #50b1a1;
+  height: 100px;
+  background-color: #5dd6c2;
   position: fixed;
   top: 0;
   left: 0;
@@ -16,7 +17,14 @@ nav {
   text-decoration: none;
   font-size: 2rem;
   font-weight: bold;
-  color: #d97d54;
+  color: #f39223;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #233131aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #233131aa);
 }
 
 nav ul {
@@ -30,7 +38,7 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #d97d54;
+  color: #f39223;
   font-weight: 500;
   transition: color 0.3s ease;
 }

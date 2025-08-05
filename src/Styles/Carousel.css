@@ -1,0 +1,8 @@
+.carousel-container {
+  display: flex;
+  height: auto;
+  max-height: 250px;
+  overflow: hidden;
+  width: 100%;
+  padding: 4rem 2rem;
+}
